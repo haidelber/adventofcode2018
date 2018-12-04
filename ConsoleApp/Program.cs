@@ -1,12 +1,16 @@
 ﻿using System;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace ConsoleApp
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(new D3P2ChallengeSolver().SolveChallange());
+            Console.WriteLine("Press ENTER to exit...");
+            Console.ReadLine();
         }
     }
 }
