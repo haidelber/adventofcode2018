@@ -7,6 +7,9 @@
 
   <ItemGroup>
     <None Remove="0301.txt" />
+    <None Remove="0401.txt" />
+    <None Remove="0501.txt" />
+    <None Remove="0601.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,6 +20,15 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="0301.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="0401.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="0501.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="0601.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

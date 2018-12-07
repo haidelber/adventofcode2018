@@ -8,7 +8,7 @@ namespace ConsoleApp
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine(new D3P2ChallengeSolver().SolveChallange());
+            Console.WriteLine(new D6P1ChallengeSolver().SolveChallange());
             Console.WriteLine("Press ENTER to exit...");
             Console.ReadLine();
         }
